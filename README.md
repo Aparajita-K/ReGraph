@@ -20,7 +20,7 @@ The cluster assignments are written to the file ``3Sources-ClusterAssignment.txt
 The file ``Grassmann-SPD-Optimize.R`` contains the ``R`` implementation of the MiMIC algorithm as a function `ManifoldJointMinimize`. 
 Details of the fuctions is as follows:
 
-Function Name: `ManifoldJointMinimize`
+Function Name: `ManifoldGrassmannMinimize`
 
 ###### #Usage 
 `ManifoldGrassmannMinimize(Data,K=K,true=true,modname=mod,DataSet=DataSet,simFromFile=1, rank=rank)
