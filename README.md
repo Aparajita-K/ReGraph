@@ -1,8 +1,8 @@
-# GeARS
+# GrassGO
 GeARS algorithm for Multi-View Clustering based on Grassmannian and Symmetric Positive Definite Manifold Optimization
 
 
-The GeARS algorithm permforms integrative clustering on high-dimensional multimodal data sets. A multimodal data set consists of ``M`` modalities X<sub>1</sub>, ..., X<sub>m</sub>, ..., X<sub>M</sub>. Each modality X<sub>m</sub> represents the observations for same set of ``n`` samples from the ``m``-th data source.
+The GrassGO algorithm permforms integrative clustering on high-dimensional multimodal data sets. A multimodal data set consists of ``M`` modalities X<sub>1</sub>, ..., X<sub>m</sub>, ..., X<sub>M</sub>. Each modality X<sub>m</sub> represents the observations for same set of ``n`` samples from the ``m``-th data source.
 
 Inorder to execute the R code for the 3Sources data set,  within the ``R`` environment execute:
 >source("3Sources-demo.R")
@@ -86,7 +86,7 @@ params=NULL;   #Any additional parameters if required
 rank =NULL                       #If rank not specified then algorithm runs for rank K to 50
                                  #In that case, perform optimal rank tuning as discussed in paper from results obtained in Results folder
 
-Algo="GeARS"
+Algo="GrassGO"
 source("Grassmann-SPD-Optimize.R")
 ManifoldGrassmannMinimize(Data,K=K,true=true,modname=mod,DataSet=DataSet,simFromFile=1, rank=rank)
 ```
