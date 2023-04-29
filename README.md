@@ -2,7 +2,7 @@
 ReGraph algorithm for Multi-View Clustering based on Grassmannian and Symmetric Positive Definite Manifold Optimization
 
 
-The GrassGO algorithm permforms integrative clustering on high-dimensional multimodal data sets. A multimodal data set consists of ``M`` modalities X<sub>1</sub>, ..., X<sub>m</sub>, ..., X<sub>M</sub>. Each modality X<sub>m</sub> represents the observations for same set of ``n`` samples from the ``m``-th data source.
+The ReGraph algorithm permforms integrative clustering on high-dimensional multimodal data sets. A multimodal data set consists of ``M`` modalities X<sub>1</sub>, ..., X<sub>m</sub>, ..., X<sub>M</sub>. Each modality X<sub>m</sub> represents the observations for same set of ``n`` samples from the ``m``-th data source.
 
 Inorder to execute the R code for the 3Sources data set,  within the ``R`` environment execute:
 >source("3Sources-demo.R")
